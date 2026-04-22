@@ -1,0 +1,42 @@
+{
+  "name": "blog-management-frontend",
+  "version": "1.0.0",
+  "description": "The frontend of the Blog management app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NomanSarwar663/blog-management-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NomanSarwar663/blog-management-frontend/issues"
+  },
+  "homepage": "https://github.com/NomanSarwar663/blog-management-frontend#readme",
+  "dependencies": {
+    "axios": "^1.15.2",
+    "lucide-react": "^1.8.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "jsdom": "^29.0.2",
+    "tailwindcss": "^4.2.4",
+    "vite": "^8.0.9",
+    "vitest": "^4.1.5"
+  }
+}
